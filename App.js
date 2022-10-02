@@ -4,6 +4,7 @@ import PhotoPage from './Views/PhotoPage';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { NavigationContainer } from '@react-navigation/native';
 import FrontPage from './Views/FrontPage';
+import * as React from 'react';
 
 //kode
 const Tab = createBottomTabNavigator;
