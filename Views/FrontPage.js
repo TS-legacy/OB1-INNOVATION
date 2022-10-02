@@ -1,11 +1,12 @@
-import {Button, Text, View, StyleSheet} from 'react-native';
+import {View, StyleSheet, Button, Text} from 'react-native';
 
 function FrontPage ({navigation}) {
+  //dddd
     return (
         <View style={StyleSheet.container}>
             <Text>Photo Page</Text>
             <Button
-            title="Klik her"
+            title="Tryk her"
             onPress={() => navigation.navigate('Photos')}
             />
         </View>
@@ -14,10 +15,11 @@ function FrontPage ({navigation}) {
 
 const styles = StyleSheet.create({
     container: {
-      flex: 1,
-      backgroundColor: '#fff',
       alignItems: 'center',
       justifyContent: 'center',
+      flex: 1,
+      backgroundColor: '#fff',
+
     },
   });
 

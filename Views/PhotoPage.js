@@ -1,11 +1,13 @@
 import {Text, View, Button, StyleSheet} from 'react-native';
 
 function PhotoPage () {
+
+    // bcvhfg
     return (
         <View>
-            <Text>PhotoPage</Text> //Creation of page with company Photos
+            <Text>PhotoPage</Text> 
             <Button
-            title="Test"
+            title="Knap tekst"
             />
         </View>
     )

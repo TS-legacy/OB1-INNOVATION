@@ -1,10 +1,11 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
-import FrontPage from './Views/FrontPage';
 import PhotoPage from './Views/PhotoPage';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { NavigationContainer } from '@react-navigation/native';
+import FrontPage from './Views/FrontPage';
 
+//kode
 const Tab = createBottomTabNavigator;
 
 export default function App() {
@@ -20,9 +21,9 @@ export default function App() {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
     backgroundColor: '#fff',
     alignItems: 'center',
+    flex: 1,
     justifyContent: 'center',
   },
 });
