@@ -1,10 +1,11 @@
+import * as React from 'react';
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 import PhotoPage from './Views/PhotoPage';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { NavigationContainer } from '@react-navigation/native';
 import FrontPage from './Views/FrontPage';
-import * as React from 'react';
+import PhotoPage from './Views/PhotoPage';
 
 //kode
 const Tab = createBottomTabNavigator;
