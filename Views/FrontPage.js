@@ -1,27 +1,26 @@
-import {View, StyleSheet, Button, Text} from 'react-native';
+import { View, StyleSheet, Button, Text } from 'react-native';
 import * as React from 'react';
 
-function FrontPage ({navigation}) {
+function FrontPage({ navigation }) {
   //dddd
-    return (
-        <View style={StyleSheet.container}>
-            <Text>Photo Page</Text>
-            <Button
-            title="Tryk her"
-            onPress={() => navigation.navigate('Photos')}
-            />
-        </View>
-    )
+  return (
+    <View style={StyleSheet.container}>
+      <Text>Front page</Text>
+      <Button
+        title="Tryk her for at hente opslag"
+        onPress={() => navigation.navigate('Post')}
+      />
+    </View>
+  );
 }
 
 const styles = StyleSheet.create({
-    container: {
-      alignItems: 'center',
-      justifyContent: 'center',
-      flex: 1,
-      backgroundColor: '#fff',
+  container: {
+    alignItems: 'center',
+    justifyContent: 'center',
+    flex: 1,
+    backgroundColor: '#fff',
+  },
+});
 
-    },
-  });
-
-export default FrontPage
+export default FrontPage;

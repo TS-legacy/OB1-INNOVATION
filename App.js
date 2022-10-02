@@ -1,21 +1,20 @@
 import * as React from 'react';
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
-import PhotoPage from './Views/PhotoPage';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { NavigationContainer } from '@react-navigation/native';
 import FrontPage from './Views/FrontPage';
-import PhotoPage from './Views/PhotoPage';
+import PostPage from './Views/PostPage';
 
 //kode
-const Tab = createBottomTabNavigator;
+const Tab = createBottomTabNavigator();
 
 export default function App() {
   return (
     <NavigationContainer>
       <Tab.Navigator>
-        <Tab.Screen name="Photo" component={PhotoPage} />
         <Tab.Screen name="Front Page" component={FrontPage} />
+        <Tab.Screen name="Post" component={PostPage} />
       </Tab.Navigator>
     </NavigationContainer>
   );
