@@ -1,4 +1,5 @@
 import {Text, View, Button, StyleSheet} from 'react-native';
+import * as React from 'react';
 
 function PhotoPage () {
 

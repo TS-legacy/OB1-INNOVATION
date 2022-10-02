@@ -1,4 +1,5 @@
 import {View, StyleSheet, Button, Text} from 'react-native';
+import * as React from 'react';
 
 function FrontPage ({navigation}) {
   //dddd
